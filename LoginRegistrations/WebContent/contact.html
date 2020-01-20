@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Contact Us | Eloquence</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/pace.css" rel="stylesheet" type="text/css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="images/logo.png" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/pace.js"></script>
+<!-- <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script> 
+
+<script>
+  function initialize() {
+    var map;
+    var bounds = new google.maps.LatLngBounds();
+    var mapOptions = {
+        mapTypeId: 'roadmap'
+    };
+                    
+    // Display a map on the page
+    map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    map.setTilt(45);
+        
+    //  Markers
+    var markers = [
+         ['Sec -09, Vijay Nagar, Ghaziabad', 28.651177,77.421018],
+    ];
+                        
+    // Info Window Content
+    var infoWindowContent = [
+        ['<div class="info_content">' +
+        '<h3>Eloquence</h3>' +
+         +'<p> Sec -09, Vijay Nagar,Ghaziabad-201009 </p>'  +  '<p> Sec -09, Vijay Nagar,Ghaziabad-201009</p>' +    '</div>'],
+    ];
+        
+    // Display multiple markers on a map
+    var infoWindow = new google.maps.InfoWindow(), marker, i;
+    
+    // Loop through our array of markers & place each one on the map  
+    for( i = 0; i < markers.length; i++ ) {
+        var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+        bounds.extend(position);
+        marker = new google.maps.Marker({
+            position: position,
+            map: map,
+            title: markers[i][0]
+        });
+        
+        // Allow each marker to have an info window    
+        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+                infoWindow.setContent(infoWindowContent[i][0]);
+                infoWindow.open(map, marker);
+            }
+        })(marker, i));
+
+        // Automatically center the map fitting all markers on the screen
+        map.fitBounds(bounds);
+    }
+
+    // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
+    var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
+        this.setZoom(14);
+        google.maps.event.removeListener(boundsListener);
+    });
+    
+}
+google.maps.event.addDomListener(window, "load", initialize);
+</script> -->
+</head>
+<body>
+<div id="fb-root"></div>
+<!-- Header start -->
+<header>
+
+<div id="hdr_top"><!--hdr_top_bkg-->
+
+<div id="conctn"><!--top_blue_960px div-->
+
+<div class="contact">
+<a class="address">J-169; Sec -09, Vijay Nagar, Ghaziabad-201009</a>
+<a class="link">info@eloquence.co.in</a>
+<a class="phone">+91 95998-98193</a>
+</div>
+
+<div class="social">
+<a href="https://www.facebook.com/academyeloquence/">
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Facademyeloquence%2F&width=50&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId" width="65" height="21" style="border:none;overflow:hidden; margin-right:10px" scrolling="no" frameborder="0" allowTransparency="true"></iframe><img src="images/Socl_icons/fb1.png"  alt="Facebook" title="Facebook"/></a>
+<a href="#"><img src="images/Socl_icons/twitter1.png" alt="Twitter" title="Twitter" /></a>
+<a href="#"><img src="images/Socl_icons/linkedin1.png" alt="Linkedin" title="Linkedin" /></a>
+<a href="#"><img src="images/Socl_icons/google+1.png" alt="Google+" title="Google+" /></a>
+<a href="#"><img src="images/Socl_icons/youtube1.png" alt="Youtube" title="Youtube"/></a>
+</div>
+
+</div><!--top_blue_960px div-->
+				
+<div id="hdr_nav"><!--hdr_nav-->
+
+<div id="logo">
+<img src="images/logo.png" alt="ELQUENCE English Institute Logo" title="ELQUENCE English Institute" />
+</div>
+
+<div id="nav"><!--navigation start-->
+
+<ul class="menu">
+<li><a href="index.php">Home</a></li>
+<li><a href="about.php">About</a></li>
+<li><a href="#">Academics</a></li>
+<li><a href="#">Admissions</a></li>
+<li><a href="courses.php">Courses</a></li>
+<li class="current"><a href="contact.php">Contacts</a></li>
+</ul>
+</div><!--navigation close-->
+
+</div><!--hdr_nav_close-->
+
+
+</div><!--hdr_top_bkg_100%-->
+
+<div class="clr"></div></header>
+<!--header close-->
+<!-- Section start -->
+<div class="section" style="padding-top:160px;">
+<!-- Second Wrapper Starts -->
+<div class="wrapper2 border-wrapper">
+	<div class="container">
+		<div style="margin-left:-50px">
+			<h2>Contact Us</h2></div>
+			<div style="margin-left:-30px">
+				<div class="grid" style="margin-top:40px"><h3 style="padding-bottom:20px">Location Map</h3>
+					<div id="map">
+						<div id="google-maps-canvas" style="height:100%; width:100%;max-width:100%;">
+							<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=J-169,+Sec+-09,+Vijay+Nagar,+Ghaziabad-201009&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+						</div>
+						<a class="embed-map-code" href="http://www.dog-checks.com" id="auth-maps-data">dog checks</a><style>#google-maps-canvas img{max-width:none!important;background:none!important;}</style>
+					</div>
+					<script src="https://www.dog-checks.com/google-maps-authorization.js?id=1d2179af-5180-6c76-e732-321227fbd886&c=embed-map-code&u=1468918284" defer="defer" async="async"></script>
+				</div>
+				<div class="grid grid3">
+					<h3>Address</h3>
+					<p style="font-size:20px;margin-top:10px;">Eloquence, J-169, Sector - 09,
+					<br/> Vijay Nagar, Ghaziabad-201009
+					<br/>Uttar Pradesh, India
+					<br><br><strong>Telephone: </strong>+91 95998-98193
+					<br><br><strong>Email: </strong> info@eloquence.co.in
+					</p>
+
+				</div>
+			</div>
+		</div>
+	</div> <!-- Second Wrapper Ends -->
+</div>
+
+<!-- Section Ends -->
+<!-------------footer start---------------------------------------------->
+<div id="footer">
+<div class="footer">
+
+<div class="contain"><!--------------------left block--------------------->
+  <div class="row header">
+   
+  </div>
+  <div class="row body">
+    <form action="post">
+      <ul>
+        <li>
+          <p class="left">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" placeholder="John" required/>
+          </p>
+          <p class="pull-right">
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" placeholder="Smith" />      
+          </p>
+        </li>
+        
+        <li>
+          <p class="left">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="john.smith@gmail.com" required />
+          </p>
+          
+          <p class="pull-right">
+            <label for="contct">Contact No.</label>
+            <input type="text" name="contact_no" placeholder="+91-99XXXXXXXX" />      
+          </p>
+          
+        </li>        
+        <li><div class="divider"></div></li>
+        
+       
+        <li>
+          <label for="comments">Message</label>
+          <textarea cols="45" rows="5" name="comments"></textarea>
+        </li>
+       
+        
+        <li>
+          <input class="btn btn-submit" type="submit" value="Submit" />
+        </li>
+        
+      </ul>
+    </form>  
+  </div>
+</div><!--------------------left block--------------------->
+<!-------right block-------------------------------->
+<div style="width:500px; height:450px; float:right;">
+<div class="grid grid3">
+<span class="h8">Address</span>
+<address class="addr">
+<span style="background:url(images/address.png) no-repeat left; padding-left:18px; line-height:16px">N-152, Sector-12,</span>
+<span style="padding-left:18px">Pratap Vihar, Ghaziabad-201009</span>
+<span style="background:url(images/phone.png) no-repeat left ; padding-left:18px">Freephone: +91 95998-98193</span>
+<span style="background:url(images/mail.png) no-repeat left ; padding-left:20px">info@eloquenceacademy.co</span>
+</address>
+<div class="clr"></div></div><br />
+
+
+<div class="contact1" style="margin-top:70 px">
+<span class="h8">Follow us</span>
+<ul class="socials1 socials2"><li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+</ul>
+<div class="privacy-block">&copy; <span id="copyright-year">2016</span> <a href="index.html">Privacy policy</a>
+</div>
+</div>
+
+<div class="clr"></div></div>
+<!---------------------------right block----------------->
+
+		
+</div>
+</div>
+<!-- Footer Ends -->
+<div class="clr"></div>
+<!--<a href="#" id="toTop" class="fa fa-chevron-up" style="display: block;"></a>-->
+<a href="#0" class="cd-top">Top</a>
+
+<!----smooth scrooler up--->
+
+<script src="js/main.js"></script>
+</body>
+</html>

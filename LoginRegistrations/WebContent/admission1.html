@@ -1,0 +1,490 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Eloquence | Speak, Express. Have a way with words</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="css/pace.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="images/logo.png" />
+<link rel="stylesheet" type="text/css" href="css/xyz.css">
+<script type="text/javascript" src="js/pace.js"></script>
+
+    <!------------------------------------slider------------------>
+    
+     
+	<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+		
+    
+<!---------------------anchor tag smooth scroller on same page--> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	 <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script> 
+
+ <!-------script_for_chatbox---------------------->
+
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<!---------------------endof_script for chatbox--------------> 
+<style>
+
+.picture-container{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.picture{
+    width: 206px;
+    height: 206px;
+    background-color: #999999;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 5px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.picture:hover{
+    border-color:#267c9f;
+}	
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.picture-src{
+    width: 100%;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=267123956965435";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Header start -->
+<header>
+	<div id="hdr_top"><!--hdr_top_bkg-->
+		<div id="conctn"><!--top_blue_960px div-->
+			<div class="contact">
+				<a class="address">N - 152, Sec. 12, Pratap Vihar (Near D.A.V. Chowk)</a>
+				<a class="link">info@eloquenceacademy.co</a>
+				<a class="phone">+91 9910-990-859</a>
+			</div>
+
+			<div class="social">
+				<a href="https://www.facebook.com/academyeloquence/">
+				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Facademyeloquence%2F&width=50&layout=button_count&action=like&size=small&show_faces=false&share=false&height=21&appId" width="65" height="21" style="border:none;overflow:hidden; margin-right:10px" scrolling="no" frameborder="0" allowTransparency="true"></iframe><img src="images/Socl_icons/fb1.png"  alt="Facebook" title="Facebook"/></a>
+				<a href="#"><img src="images/Socl_icons/twitter1.png" alt="Twitter" title="Twitter" /></a>
+				<a href="#"><img src="images/Socl_icons/linkedin1.png" alt="Linkedin" title="Linkedin" /></a>
+				<a href="#"><img src="images/Socl_icons/google+1.png" alt="Google+" title="Google+" /></a>
+				<a href="#"><img src="images/Socl_icons/youtube1.png" alt="Youtube" title="Youtube"/></a>
+			</div>
+		</div><!--top_blue_960px div-->
+				
+		<div id="hdr_nav"><!--hdr_nav-->
+			<div id="logo">
+				<img src="images/logo.png" alt="ELQUENCE English Institute Logo" title="ELQUENCE English Institute" />
+			</div>
+
+			<div id="nav"><!--navigation start-->
+				<ul class="menu">
+					<li class="current"><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="#">Academics</a></li>
+					<li><a href="admission1.php">Admissions</a></li>
+					<li><a href="courses.php">Courses</a></li>
+					<li><a href="contact.php" >Contacts</a></li>
+				</ul>
+			</div><!--navigation close-->
+		</div><!--hdr_nav_close-->
+	</div><!--hdr_top_bkg_100%-->
+	<div class="clr">
+	</div>
+</header>
+<!--header close--------------------------------------------------->
+<div id="wrap"><!-------------------------------------wrapper start----------------->
+	<div style="background:rgba(255,255,255,0.7); border-bottom:3px solid #c52d3c">
+			<!-- First Wrapper starts -->
+			<div class="containeradm">	
+				<div class="posts">
+					<h2><a>ADMISSION FORM</a></h2>
+					<h5><a>To get enrolled please fill proper details.</a></h5>
+				</div>
+			</div><!--container close----->
+	</div>
+		<div class="clr"></div>
+</div>
+		<!-- First Wrapper Ends-->
+		<!-- Second Wrapper Starts -->
+<div class="wrapperxyz">
+	<form method="post" action="admissionform1.php" enctype="multipart/form-data">
+		<div class="container1">
+			
+		<h3>1. Personal Details</h3>
+
+	
+		
+								<div class="col-sm-4 col-sm-offset-1">
+                                     <div class="picture-container">
+                                          <div class="picture">
+                                              <img src="images/default-avatar.png" class="picture-src" id="wizardPicturePreview" title=""/>
+                                              <input type="file" name="file" id="wizard-picture">
+                                          </div>
+                                          <h6 style="color:#267c9f;font-size:30px;">Choose Picture</h6>
+                                      </div>
+                                </div>
+                                  <div class="col-sm-6">
+                                      <div class="form-group">
+                                        <label style="color:black;">Name of Student <small style="color:lightgray;">(required)</small></label>
+                                        <input name="studentname" type="text" class="form-control" placeholder="Full name of student">
+                                      </div>
+                                      <div class="form-group">
+                                        <label style="color:black;">Name of Father/Husband <small style="color:lightgray;">(required)</small></label>
+                                        <input name="fathername" type="text" class="form-control" placeholder="Name of Father/Husband">
+                                      </div>									  
+                                  </div>
+								  <div class="col-sm-6">
+                                      <div class="form-group">
+                                        <label style="color:black;">Date of Birth <small style="color:lightgray;">(required)</small></label>
+                                        <input name="dob" type="text" class="form-control" placeholder="Date of Birth">
+                                      </div>
+								  </div>
+								  <div class="col-sm-6 ">
+									  <div class="form-group">
+                                        <label style="color:black;">Qualifiaction <small style="color:lightgray;">(required)</small></label>
+                                        <input name="qualification" type="text" class="form-control" placeholder="Qualifiaction ">
+                                      </div>
+								  </div>
+                                  <div class="col-sm-10 col-sm-offset-1">
+                                      <div class="form-group">
+                                          <label style="color:black;">Your Profession<small style="color:lightgray;">(required)</small></label>
+                                          <input name="profession" type="text" class="form-control" placeholder="Your Profession">
+                                      </div>
+									  <div class="form-group">
+                                          <label style="color:black;">Any Experience<small style="color:lightgray;">(required)</small></label>
+                                          <input name="experience" type="text" class="form-control" placeholder="Any Experience">
+                                      </div>
+									  
+                                  </div>
+								  <div class="col-sm-10 col-sm-offset-1">
+                                      <div class="form-group">
+											<label style="color:black;">Gender<small style="color:lightgray;">(required)</small></label>
+											<div class="col-sm-3 col-sm-offset-1">
+												<label class="radio-inline" style="color:black;">
+												<input name="gender" id="input-gender-male" value="Male" type="radio" checked="checked"/>Male
+												</label>
+											</div>
+											<div class="col-sm-3 col-sm-offset-1">
+												<label class="radio-inline" style="color:black;">
+												<input name="gender" id="input-gender-female" value="Female" type="radio" />Female
+												</label>
+											</div>
+											<div class="col-sm-3 col-sm-offset-1">
+												<label class="radio-inline" style="color:black;">
+												<input name="gender" id="input-gender-female" value="Female" type="radio" />Others
+												</label>
+											</div>
+										</div>
+								  </div>
+				<div class="col-sm-10 ">  
+					<h3>2. Address & Contact Details</h3>
+				</div>
+								  <div class="col-sm-5 col-sm-offset-1">  
+										<div class="form-group">
+                                          <label style="color:black;">Email id<small style="color:lightgray;">(required)</small></label>
+                                          <input name="email" type="text" class="form-control" placeholder="Email id">
+                                      </div>
+								  </div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">Facebook id<small style="color:lightgray;">(required)</small></label>
+                                          <input name="facebook" type="text" class="form-control" placeholder="Facebook id">
+                                      </div>
+									</div>
+									<div class="col-sm-5 col-sm-offset-1">
+									  <div class="form-group">
+                                          <label style="color:black;">Contact No.<small style="color:lightgray;">(required)</small></label>
+                                          <input name="contact" type="text" class="form-control" placeholder="Contact Number">
+                                      </div>
+									</div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">WhatsApp No.<small style="color:lightgray;">(required)</small></label>
+                                          <input name="whatsapp" type="text" class="form-control" placeholder="WhatsApp Number">
+                                      </div>
+								    </div>
+									<div class="col-sm-5 col-sm-offset-1">
+									  <div class="form-group">
+                                          <label style="color:black;">Permanent Address<small style="color:lightgray;">(required)</small></label>
+                                          <textarea name="permanentaddress" type="text" class="form-control" placeholder="Permanent Address"></textarea>
+                                      </div>
+									</div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">Correspondence/Present Address<small style="color:lightgray;">(required)</small></label>
+                                          <textarea name="correspondence" type="text" class="form-control" placeholder="Correspondence/Present Address"></textarea>
+                                      </div>
+								    </div>
+				<div class="col-sm-10 ">  
+					<h3>3. Identification Details</h3>
+				</div>
+									<div class="col-sm-5 col-sm-offset-1">  
+											<div class="form-group">
+												<label style="color:black;">Aadhar Number<small style="color:lightgray;">(required)</small></label>
+												<input name="aadhar" type="text" class="form-control" placeholder="Aadhar Card Number">
+											</div>
+									</div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">Voter id<small style="color:lightgray;">(required)</small></label>
+										  <input name="voter" type="file" class="form-control"/>
+                                      </div>
+									</div>
+				<div class="col-sm-10 ">  
+					<h3>4. Details About Course</h3>
+				</div>
+									<div class="col-sm-5 col-sm-offset-1">  
+											<div class="form-group">
+												<label style="color:black;">When did you visit for inquiry<small style="color:lightgray;">(required)</small></label>
+												<input name="inquiry" type="text" class="form-control" placeholder="When did you visit for inquiry">
+											</div>
+									</div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">Applied Course<small style="color:lightgray;">(required)</small></label>
+                                          <select name="course"  class="form-control">
+										  <option>Basic English</option>
+										  <option>Basic Plus English</option>
+										  <option>Advance English</option>
+										  <option>Basic Computer</option>
+										  <option>Diploma in Computer</option>
+										  <option>Advance Excel</option>
+										  <option>Typing</option>
+										  <option>Tally ERP 9</option>
+										  <option>Java</option>
+										  <option>Web Designing</option>
+										  <option>Graphic Designing</option>
+										  <option>Php</option>
+										  <option>MIS</option>
+										  <option>C</option>
+										  <option>C++</option>
+										  <option>Others</option>
+										  </select>
+                                      </div>
+									</div>
+									<div class="col-sm-5 col-sm-offset-1">  
+											<div class="form-group">
+												<label style="color:black;">Timing of Class<small style="color:lightgray;">(required)</small></label>
+												<input name="timing" type="text" class="form-control" placeholder="Timing of Class">
+											</div>
+									</div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">Duration<small style="color:lightgray;">(required)</small></label>
+                                          <input name="duration" type="text" class="form-control" placeholder="Duration">
+                                      </div>
+									</div>
+									<div class="col-sm-5 col-sm-offset-1">  
+											<div class="form-group">
+												<label style="color:black;">Scale of Payment<small style="color:lightgray;">(required)</small></label>
+												<div class="col-sm-3 col-sm-offset-2">
+													<label class="radio-inline" style="color:black;">
+														<input name="scale" id="input-gender-male" value="Installment" type="radio" checked="checked"/>Installment
+													</label>
+												</div>
+												<div class="col-sm-4 col-sm-offset-1">
+													<label class="radio-inline" style="color:black;">
+														<input name="scale" id="input-gender-female" value="Per Month" type="radio" />Per Month
+													</label>
+												</div>
+											</div>
+									</div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">Total Amount<small style="color:lightgray;">(required)</small></label>
+                                          <input name="amount" type="text" class="form-control" placeholder="Total Amount">
+                                      </div>
+									</div>
+									<div class="col-sm-5 col-sm-offset-1">
+									  <div class="form-group">
+                                          <label style="color:black;">Cash Down<small style="color:lightgray;">(required)</small></label>
+                                          <input name="cash" type="text" class="form-control" placeholder="Cash Paid">
+                                      </div>
+									</div>
+									<div class="col-sm-5 ">
+									  <div class="form-group">
+                                          <label style="color:black;">Signature of Student<small style="color:lightgray;">(required)</small></label>
+                                          <input name="signature" type="file" class="form-control" />
+										  
+                                      </div>
+									</div>
+					<div class="col-sm-4  col-sm-offset-4" style="padding-bottom:20px;">  
+					<button type="submit" name="enroll" style="background-color:#267c9f;border-color:#267c9f; border-radius:10px;height:50px;" class="btn-group btn-group-justified" role="group">Enroll</button>
+					</div>
+		</div>
+		</form>
+
+	
+</div>
+<div class="clr"></div>
+<!--Second Wrapper Ends-------------------------------------------- -->
+		<!-------------footer start---------------------------------------------->
+<div id="footer">
+<div class="footer">
+
+<div class="contain"><!--------------------left block--------------------->
+  <div class="row header">
+   
+  </div>
+  <div class="row body">
+    <form action="" method="post" name="contact" onsubmit="return validate()" >
+      <ul>
+        <li>
+          <p class="left">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" placeholder="John" />
+          </p>
+          <p class="pull-right">
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" placeholder="Smith" />      
+          </p>
+        </li>
+        
+        <li>
+          <p class="left">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" name="email" placeholder="john.smith@gmail.com" />
+          </p>
+          
+          <p class="pull-right">
+            <label for="contct">Contact No.</label>
+            <input type="text" name="contact_no" placeholder="+91-99XXXXXXXX" />      
+          </p>
+          
+        </li>        
+        <li><div class="divider"></div></li>
+        
+       
+        <li>
+          <label for="comments">Message</label>
+          <textarea cols="45" rows="5" name="comments"></textarea>
+        </li>
+       
+        
+        <li>
+          <input class="btn btn-submit" type="submit" value="Submit" name="submit"/>
+        </li>
+        
+      </ul>
+    </form>  
+  </div>
+</div><!--------------------left block--------------------->
+<!-------right block-------------------------------->
+<div style="width:500px; height:450px; float:right;">
+<div class="grid grid3">
+<span class="h8">Address</span>
+<address class="addr">
+<span style="background:url(images/address.png) no-repeat left; padding-left:18px; line-height:16px">N-152, Sector-12,</span>
+<span style="padding-left:18px">Pratap Vihar, Ghaziabad-201009</span>
+<span style="background:url(images/phone.png) no-repeat left ; padding-left:18px">Freephone: +91 95998-98193</span>
+<span style="background:url(images/mail.png) no-repeat left ; padding-left:20px">info@eloquenceacademy.co</span>
+</address>
+<div class="clr"></div></div><br />
+
+
+<div class="contact1" style="margin-top:70 px">
+<span class="h8">Follow us</span>
+<ul class="socials1 socials2"><li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+</ul>
+<div class="privacy-block">&copy; <span id="copyright-year">2016</span> <a href="index.html">Privacy policy</a>
+</div>
+</div>
+
+<div class="clr"></div></div>
+<!---------------------------right block----------------->
+
+		
+</div>
+</div>
+<!-- Footer Ends -->
+<div class="clr"></div>
+
+
+<a href="#0" class="cd-top">Top</a>
+<script src="js/main.js"></script> 
+
+</body>
+<script>
+$(document).ready(function(){
+    $("#wizard-picture").change(function(){
+        readURL(this);
+    });
+});
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            $('#wizardPicturePreview').attr('src', e.target.result).fadeIn('slow');
+        }
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+</script>
+    
+
+</html>
